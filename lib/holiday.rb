@@ -62,9 +62,11 @@ def all_holidays_with_bbq(holiday_hash)
     end 
   end.flatten.compact
   
+  all_holidays_with_bbq(holiday_supplies)
+  
 end
 
-all_holidays_with_bbq(holiday_supplies)
+
 
 
 
